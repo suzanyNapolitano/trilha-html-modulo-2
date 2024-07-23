@@ -11,7 +11,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: #E0FFFF;
 }
 .main {
     display: flex;
@@ -20,19 +20,52 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #00CED1;
     padding: 10px 20px 0px;
+    font-size: x-large;
+    font-family: open sans-serif;
+
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: #E0FFFF;
     min-height: 150px;
+    font-family: open sans-serif;
+    margin: 10px;
 }
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
+    font-size: large;
 }
+
+form {
+    max-width: 550px;
+    margin: left;
+    padding: 50px;
+    border-radius: 45px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form button {
+    width: 75%;
+    padding: 10px;
+    background-color: #4acacc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    min-height: 100px;
+    font-family: open sans-serif;
+    margin:5px;
 }
